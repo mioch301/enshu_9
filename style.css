@@ -1,0 +1,105 @@
+header {
+  height: 50px;
+  margin-bottom: 50px;
+  background-color: #ff9a4b;
+}
+main {
+  display:flex;
+  justify-content: center;
+}
+
+.step-box {
+position: relative;
+width: 300px;
+margin:0px 30px 0px 0px;
+background-color: #eeeeee;
+}
+.step-img1 {
+  background-image: url(photo/img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+  width: 280px;
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+}
+.step-img2 {
+  background-image: url(photo/img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+  width: 280px;
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+}
+.step-img3 {
+  background-image: url(photo/img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+  width: 280px;
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+}
+.step-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  background-color: #ff9a4b;
+  color: white;
+  padding: 0px,0px;
+}
+
+.step-box h3 {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.step-box p {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+footer {
+  height: 50px;
+  margin-top: 50px;
+  background-color: #aaaaaa;
+}
+
+
+/*768px以下の際に適用される設定*/
+@media screen and (max-width: 768px) {
+  header {
+    margin-bottom: 50px;
+  }
+  main {
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  }
+  .step-box {
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  }
+  .step-img1 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  .step-img2 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  .step-img3 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  footer {
+    margin-top: 30px;
+  }
+}
